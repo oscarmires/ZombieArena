@@ -6,9 +6,14 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		55CC9D4E243D7AC7007EA9E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CC9D4D243D7AC7007EA9E3 /* main.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		55CC9D4B243D79FD007EA9E3 /* graphics */ = {isa = PBXFileReference; lastKnownFileType = text; name = graphics; path = ZombieArena/graphics; sourceTree = SOURCE_ROOT; };
 		55CC9D4C243D79FD007EA9E3 /* sound */ = {isa = PBXFileReference; lastKnownFileType = text; name = sound; path = ZombieArena/sound; sourceTree = SOURCE_ROOT; };
+		55CC9D4D243D7AC7007EA9E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		55DC908B243D769600C1FA3B /* ZombieArena */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZombieArena; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -43,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				55DC9090243D769600C1FA3B /* Resources */,
+				55CC9D4D243D7AC7007EA9E3 /* main.cpp */,
 			);
 			path = ZombieArena;
 			sourceTree = "<group>";
@@ -112,6 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CC9D4E243D7AC7007EA9E3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
