@@ -6,17 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		55DC908F243D769600C1FA3B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55DC908E243D769600C1FA3B /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
+		55CC9D4B243D79FD007EA9E3 /* graphics */ = {isa = PBXFileReference; lastKnownFileType = text; name = graphics; path = ZombieArena/graphics; sourceTree = SOURCE_ROOT; };
+		55CC9D4C243D79FD007EA9E3 /* sound */ = {isa = PBXFileReference; lastKnownFileType = text; name = sound; path = ZombieArena/sound; sourceTree = SOURCE_ROOT; };
 		55DC908B243D769600C1FA3B /* ZombieArena */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZombieArena; sourceTree = BUILT_PRODUCTS_DIR; };
-		55DC908E243D769600C1FA3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		55DC9091243D769600C1FA3B /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_image.jpg; path = ../cute_image.jpg; sourceTree = "<group>"; };
-		55DC9092243D769600C1FA3B /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = nice_music.ogg; path = ../nice_music.ogg; sourceTree = "<group>"; };
-		55DC9093243D769600C1FA3B /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../sansation.ttf; sourceTree = "<group>"; };
-		55DC9094243D769600C1FA3B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +42,6 @@
 		55DC908D243D769600C1FA3B /* ZombieArena */ = {
 			isa = PBXGroup;
 			children = (
-				55DC908E243D769600C1FA3B /* main.cpp */,
 				55DC9090243D769600C1FA3B /* Resources */,
 			);
 			path = ZombieArena;
@@ -58,10 +50,8 @@
 		55DC9090243D769600C1FA3B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				55DC9091243D769600C1FA3B /* cute_image.jpg */,
-				55DC9092243D769600C1FA3B /* nice_music.ogg */,
-				55DC9093243D769600C1FA3B /* sansation.ttf */,
-				55DC9094243D769600C1FA3B /* icon.png */,
+				55CC9D4B243D79FD007EA9E3 /* graphics */,
+				55CC9D4C243D79FD007EA9E3 /* sound */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -122,7 +112,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DC908F243D769600C1FA3B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
