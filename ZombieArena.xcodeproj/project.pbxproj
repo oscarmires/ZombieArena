@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55CC9D4E243D7AC7007EA9E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CC9D4D243D7AC7007EA9E3 /* main.cpp */; };
+		55DEEDEF2441AAB5006699E5 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55DEEDED2441AAB5006699E5 /* Player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -15,6 +16,8 @@
 		55CC9D4C243D79FD007EA9E3 /* sound */ = {isa = PBXFileReference; lastKnownFileType = text; name = sound; path = ZombieArena/sound; sourceTree = SOURCE_ROOT; };
 		55CC9D4D243D7AC7007EA9E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		55DC908B243D769600C1FA3B /* ZombieArena */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZombieArena; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DEEDED2441AAB5006699E5 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		55DEEDEE2441AAB5006699E5 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +52,8 @@
 			children = (
 				55DC9090243D769600C1FA3B /* Resources */,
 				55CC9D4D243D7AC7007EA9E3 /* main.cpp */,
+				55DEEDED2441AAB5006699E5 /* Player.cpp */,
+				55DEEDEE2441AAB5006699E5 /* Player.hpp */,
 			);
 			path = ZombieArena;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DEEDEF2441AAB5006699E5 /* Player.cpp in Sources */,
 				55CC9D4E243D7AC7007EA9E3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +134,7 @@
 		55DC9095243D769600C1FA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -172,6 +179,7 @@
 		55DC9096243D769600C1FA3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
